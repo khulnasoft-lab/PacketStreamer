@@ -9,7 +9,7 @@ require (
 	github.com/foxcpp/go-mockdns v1.0.0
 	github.com/google/gopacket v1.1.19
 	github.com/google/uuid v1.6.0
-	github.com/inhies/go-bytesize v0.0.0-20210819104631-275770b98743
+	github.com/inhies/go-bytesize v0.0.0-20220417184213-4913239db9cf
 	github.com/klauspost/compress v1.15.9
 	github.com/segmentio/kafka-go v0.4.47
 	github.com/spf13/cobra v1.4.0
