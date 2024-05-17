@@ -8,7 +8,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/s3 v1.26.3
 	github.com/foxcpp/go-mockdns v1.0.0
 	github.com/google/gopacket v1.1.19
-	github.com/google/uuid v1.3.0
+	github.com/google/uuid v1.6.0
 	github.com/inhies/go-bytesize v0.0.0-20210819104631-275770b98743
 	github.com/klauspost/compress v1.14.2
 	github.com/segmentio/kafka-go v0.4.32
