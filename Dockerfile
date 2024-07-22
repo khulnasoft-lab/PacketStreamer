@@ -1,4 +1,4 @@
-FROM alpine:3.15 as builder
+FROM alpine:3.20 as builder
 
 RUN apk update \
     && apk add \
@@ -27,7 +27,7 @@ ARG RELEASE=0
 RUN --mount=type=cache,target=/root/.cache/go-build \
     make build STATIC=1 RELEASE=${RELEASE}
 
-FROM alpine:3.15 as packetstreamer
+FROM alpine:3.20 as packetstreamer
 
 COPY --from=builder /src/packetstreamer /usr/bin/packetstreamer
 ENTRYPOINT ["/usr/bin/packetstreamer"]
