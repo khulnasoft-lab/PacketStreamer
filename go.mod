@@ -1,9 +1,11 @@
 module github.com/khulnasoft-lab/PacketStreamer
 
-go 1.17
+go 1.21
+
+toolchain go1.23.4
 
 require (
-	github.com/aws/aws-sdk-go-v2 v1.30.1
+	github.com/aws/aws-sdk-go-v2 v1.32.8
 	github.com/aws/aws-sdk-go-v2/config v1.15.3
 	github.com/aws/aws-sdk-go-v2/service/s3 v1.26.3
 	github.com/foxcpp/go-mockdns v1.0.0
@@ -29,8 +31,9 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/internal/s3shared v1.13.3 // indirect
 	github.com/aws/aws-sdk-go-v2/service/sso v1.11.3 // indirect
 	github.com/aws/aws-sdk-go-v2/service/sts v1.16.3 // indirect
-	github.com/aws/smithy-go v1.20.3 // indirect
+	github.com/aws/smithy-go v1.22.1 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
+	github.com/jmespath/go-jmespath v0.4.0 // indirect
 	github.com/kr/pretty v0.1.0 // indirect
 	github.com/miekg/dns v1.1.25 // indirect
 	github.com/pierrec/lz4/v4 v4.1.15 // indirect
